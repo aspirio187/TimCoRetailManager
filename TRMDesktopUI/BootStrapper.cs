@@ -9,11 +9,11 @@ using TRMDesktopUI.ViewModels;
 
 namespace TRMDesktopUI
 {
-    public class BootStrapper : BootstrapperBase
+    public class Bootstrapper : BootstrapperBase
     {
         private SimpleContainer _container = new SimpleContainer();
 
-        public BootStrapper()
+        public Bootstrapper()
         {
             Initialize();
         }
